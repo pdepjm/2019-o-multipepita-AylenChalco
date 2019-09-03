@@ -1,8 +1,8 @@
 object pepita{
-	var energia = 100
+	var energia = 105
 
-	method vola(cantKm){
-		energia -= (cantKm + 10)
+	method vola(cantKm){ 
+		energia -= (cantKm + 10)   
 	}
 	method come(comida){
 		energia += comida.cuantaEnergiaDa()
@@ -20,10 +20,14 @@ object pepita{
 	method estaEntre(num1,num2){
 		if(energia.between(num1,num2))
 		return 10
+		
+		return 0
 	}
 	method esMultiploDe(num){
 		if(num%20==0)
 		return 15
+		
+		return 0
 	}
 	method salirAcomer(){
 		self.vola(5)
