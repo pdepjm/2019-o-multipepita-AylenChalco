@@ -91,3 +91,12 @@ object canelones{
 		return energia + energiaSalsa + energiaQueso
 	}
 }
+ object roque{	
+ 
+            method entrenar(){	 	
+                pepita.vola(10)	 	
+                pepita.come(alpiste)	 	
+                pepita.vola(5)	 	
+                pepita.haceLoQueQuieras()	 
+                }
+            }
